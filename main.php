@@ -14,7 +14,8 @@ $select = "SELECT * FROM `".$tbl_name."`";
 
 mysql_query('SET NAMES utf8;');
 $export = mysql_query($select); 
-$fields = mysql_num_rows($export); // thanks to Eric
+//$fields = mysql_num_rows($export); // thanks to Eric
+$fields = mysql_num_fields($export); // by KAOSFORGE
 
 for ($i = 0; $i < $fields; $i++) {
 	$col_title .= '<td>'.mysql_field_name($export, $i).'</td>';
