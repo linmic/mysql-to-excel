@@ -1,5 +1,8 @@
+# mysql-to-excel
+
 This simple script is to save some time for exporting data from mysql to excel.
 
 It's like a code template for you to fill in your personal authentication details, then you can get it done in no time.
 
-Please feel free to customize it to your own version. This script was published under MIT license, by Linmic <linmicya@gmail.com>.
+## License
+[MIT](https://github.com/Microsoft/monaco-editor/blob/master/LICENSE.md)
